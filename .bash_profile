@@ -12,6 +12,9 @@ export PATH
 # Setting PATH for database  
 export PATH=/usr/local/mysql/bin:$PATH
 
+# Settings PATH for flutter
+export PATH="$PATH:~/flutter/bin"
+
 
 alias godev="cd ./dev-workspace"
 alias ll="ls -lh"
