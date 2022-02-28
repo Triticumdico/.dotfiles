@@ -24,7 +24,7 @@ git clone https://github.com/Triticumdico/.dotfiles.git ~/.dotfiles
 # There are better and less manual ways to do this;
 # investigate install scripts and bootstrapping tools.
 
-ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
+ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 
 4. Install Homebrew, followed by the software listed in the Brewfile.
@@ -41,3 +41,5 @@ brew bundle --file ~/.dotfiles/Brewfile
 # ...or move to the directory first.
 cd ~/.dotfiles && brew bundle
 ```
+
+
