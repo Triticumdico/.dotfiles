@@ -6,6 +6,8 @@ tap "fluxcd/tap"
 brew "cmake"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+
+## Cloud Toolkit
 # Kubernetes CLI
 brew "kubectl"
 # Kubernetes package manager
@@ -15,6 +17,7 @@ brew "terraform"
 # Fluxcd
 brew "flux"
 
+## Dev Toolkit
 # Open source programming language to build simple/reliable/efficient software
 brew "go@1.22"
 # JavaScript package manager
