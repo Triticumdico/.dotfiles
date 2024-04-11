@@ -1,14 +1,27 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
-tap "knative/client"
+tap "hashicorp/tap"
+tap "fluxcd/tap"
 # Cross-platform make
 brew "cmake"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
+# Kubernetes CLI
+brew "kubectl"
 # Kubernetes package manager
 brew "helm"
+# Terraform
+brew "terraform"
+# Fluxcd
+brew "flux"
+
+# Open source programming language to build simple/reliable/efficient software
+brew "go@1.22"
+# JavaScript package manager
+brew "yarn"
+# Platform built on V8 to build network applications
+brew "node"
+
 # Improved top (interactive process viewer)
 brew "htop"
 # NCurses Disk Usage
@@ -17,7 +30,6 @@ brew "ncdu"
 brew "openal-soft"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
-# JavaScript package manager
-brew "yarn"
+
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
