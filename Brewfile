@@ -24,6 +24,8 @@ brew "go@1.22"
 brew "yarn"
 # Platform built on V8 to build network applications
 brew "node"
+# A CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems
+brew "syft"
 
 # Improved top (interactive process viewer)
 brew "htop"
