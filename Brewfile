@@ -2,12 +2,15 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "hashicorp/tap"
 tap "fluxcd/tap"
+
 # Cross-platform make
 brew "cmake"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 
 ## Cloud Toolkit
+# Kind os a tool for running local Kubernetes clusters using Docker container “nodes”.
+brew "kind"
 # Kubernetes CLI
 brew "kubectl"
 # Kubernetes package manager
