@@ -17,12 +17,18 @@ brew "kubectl"
 brew "helm"
 # Terraform
 brew "terraform"
+# Terragrunt
+brew "terragrunt"
 # Fluxcd
 brew "flux"
 
 ## Dev Toolkit
 # Open source programming language to build simple/reliable/efficient software
 brew "go@1.22"
+# Go linters aggregator
+brew "golangci-lint"
+# Development kit for the Java programming language
+brew "openjdk@11"
 # JavaScript package manager
 brew "yarn"
 # Platform built on V8 to build network applications
