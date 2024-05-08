@@ -19,6 +19,8 @@ brew "helm"
 brew "terraform"
 # Terragrunt
 brew "terragrunt"
+# Generate Terraform modules documentation in various formats
+brew "terraform-docs"
 # Fluxcd
 brew "flux"
 
