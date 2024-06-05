@@ -9,6 +9,8 @@ brew "cmake"
 brew "curl"
 
 ## Cloud Toolkit
+# The Azure command-line interface (Azure CLI)
+brew "azure-cli"
 # Kind os a tool for running local Kubernetes clusters using Docker container “nodes”.
 brew "kind"
 # Kubernetes CLI
@@ -21,6 +23,8 @@ brew "terraform"
 brew "terragrunt"
 # Generate Terraform modules documentation in various formats
 brew "terraform-docs"
+# tfsec is a static analysis security scanner for your Terraform code.
+brew "tfsec"
 # Fluxcd
 brew "flux"
 
