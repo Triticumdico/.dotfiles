@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "hashicorp/tap"
 tap "fluxcd/tap"
+tap "knative/client"
 
 # Cross-platform make
 brew "cmake"
@@ -15,6 +16,8 @@ brew "azure-cli"
 brew "kind"
 # Kubernetes CLI
 brew "kubectl"
+# Knative is an Open-Source Enterprise-level solution to build Serverless and Event Driven epplications
+brew "knative/client/kn"
 # Kubernetes package manager
 brew "helm"
 # Terraform
