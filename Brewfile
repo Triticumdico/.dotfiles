@@ -36,6 +36,8 @@ brew "flux"
 brew "go@1.22"
 # Go linters aggregator
 brew "golangci-lint"
+# Build and test your multi-language, multi-platform projects
+brew "bazel"
 # Development kit for the Java programming language
 brew "openjdk@11"
 # JavaScript package manager
